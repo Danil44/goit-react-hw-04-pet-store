@@ -1,0 +1,30 @@
+.container {
+  height: 100%;
+  border: 3px solid #acacac48;
+  border-radius: 5px;
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.8fr 0.3fr;
+  text-decoration: none;
+}
+
+.imgWrapper {
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.img {
+  max-width: 100%;
+  display: block;
+}
+
+.name {
+  text-align: center;
+  font-family: sans-serif;
+  color: hsla(0, 0%, 18%, 0.877);
+  font-size: 25px;
+  align-self: center;
+  text-decoration: none;
+}

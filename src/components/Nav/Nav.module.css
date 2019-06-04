@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  align-items: center;
+  background-color: hsla(0, 0%, 18%, 0.877);
+  padding: 1.2em;
+  margin-bottom: 100px;
+}
+
+.link {
+  font-family: sans-serif;
+  font-size: 17px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.link:not(:last-child) {
+  margin-right: 35px;
+}
+
+.active {
+  composes: link;
+  color: rgb(246, 105, 54);
+}
