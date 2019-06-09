@@ -6,6 +6,7 @@ import styles from './PetPage.module.css';
 const PetPage = ({ image, name, age, breed, gender, color, description }) => (
   <div className={styles.container}>
     <BackButton styles={styles.btn} />
+
     <h4 className={styles.title}>All about {name}</h4>
     <div className={styles.imgWrapper}>
       <img src={image} alt={name} className={styles.img} />
